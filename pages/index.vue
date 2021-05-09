@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <Logo />
-      <h1 class="title">
+      <h1 class="title bg-gray-300">
         camals
       </h1>
       <div class="links">
