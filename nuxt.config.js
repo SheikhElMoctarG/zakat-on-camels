@@ -1,5 +1,9 @@
 export default {
   ssr:true,
+  mode: 'spa',
+  router: {
+     base: '/zakat-on-camels/'
+   },
   head: {
     title: 'حساب زكاة الإبل',
     htmlAttrs: {
