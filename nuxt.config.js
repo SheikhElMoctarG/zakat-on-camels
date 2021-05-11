@@ -1,6 +1,5 @@
 export default {
-  ssr:true,
-  mode: 'spa',
+  target: 'static',
   router: {
      base: '/zakat-on-camels/'
    },

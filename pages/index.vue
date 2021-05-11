@@ -6,7 +6,7 @@
     <button class="text-black ring-1 py-1 px-6 h-7 m-1 rounded-full text-1xl ml-2 hover:bg-gray-600 hover:text-gray-100 focus:outline-none focus:ring-0" v-on:click="check">تحقق</button>
     <h1 v-if="notification != ''">{{notification}}</h1>
     <div class="flex justify-center items-center"><h1 v-if="text != ''" class="text-2xl mt-3 text-green-500 w-80">{{text}}</h1></div>
-        <h1 class="mt-96">تمت برمجته من قبل المهندس <a class="text-blue-500" href="https://www.netijeti.tk/developer">الشيخ المختار الشنقيطي</a></h1>
+        <h1 class="mt-64">تمت برمجته من قبل المهندس <a class="text-blue-500" href="https://www.netijeti.tk/developer">الشيخ المختار الشنقيطي</a></h1>
     </div>
     </div>
 </template>
