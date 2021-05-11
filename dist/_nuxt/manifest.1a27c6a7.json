@@ -1,0 +1,54 @@
+{
+  "name": "حساب زكاة الإبل",
+  "short_name": "camals",
+  "description": "## Build Setup",
+  "icons": [
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_64x64.24c235.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_120x120.24c235.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_144x144.24c235.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_152x152.24c235.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_192x192.24c235.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_384x384.24c235.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/zakat-on-camels/_nuxt/icons/icon_512x512.24c235.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/zakat-on-camels/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#34495e",
+  "lang": "en"
+}

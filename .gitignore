@@ -81,7 +81,6 @@ typings/
 
 # Service worker
 sw.*
-dist
 # macOS
 .DS_Store
 
