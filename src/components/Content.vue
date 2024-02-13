@@ -1,5 +1,5 @@
 <template>
-    <div class="flex gap-2">
+    <div class="flex gap-3">
         <input
             class="border-2 border-[#27ae5f96] rounded-[5px] px-[5px] py-[3px] text-[16px] focus-within:outline-none focus:border-primary min-w-[250px] font-semibold"
             type="number" placeholder="أكتب هنا عدد الرؤوس ..." v-model="total" />

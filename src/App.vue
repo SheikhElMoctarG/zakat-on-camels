@@ -4,9 +4,11 @@
     <h1 class="font-bold text-[32px] text-primary ">زكـــــــــــــــــــاة الإبل</h1>
     <p class="font-bold py-2 text-[#34495e]">تطبيق ويب مبسط يقدم مستحقات الزكاة من الإبل، مقدم مجانا للمنمين.</p>
     <Content class="py-4 pt-4"/>
+    <Footer class="mt-4"/>
   </div>
 </template>
 <script setup>
 import Content from './components/Content.vue';
+import Footer from './components/Footer.vue';
 
 </script>
