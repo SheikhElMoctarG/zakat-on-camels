@@ -7,7 +7,7 @@ export default defineConfig({
     name: "زكاة الإبل",
     short_name: "زكاة الابل",
     description: "تطبيق ويب لحساب زكاة الابل",
-    start_url: ".",
+    start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
     theme_color: "#27ae60",
