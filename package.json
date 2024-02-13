@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.15"
+    "vue": "^3.4.15",
+    "vite-plugin-pwa": "^0.18.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.3",
     "autoprefixer": "^10.4.17",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1",
-    "vite": "^5.1.0",
-    "vite-plugin-pwa": "^0.18.1"
+    "vite": "^5.1.0"
+    
   }
 }
