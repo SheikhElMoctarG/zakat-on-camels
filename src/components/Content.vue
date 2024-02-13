@@ -12,47 +12,46 @@
         <div v-if="notifi != null" class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-100 " role="alert">
             <span class="font-bold">{{ notifi }}</span>
         </div>
-        <h4 v-if="result != null && notifi == null" class="border-[2px] border-[#27ae603d] px-[20px] py-1 rounded-md text-xl font-semibold text-primary">{{ result }}</h4>
- 
-    
-    
+        <h4 v-if="result != null && notifi == null"
+            class="border-[2px] border-[#27ae603d] px-[20px] py-1 rounded-md text-xl font-semibold text-primary">{{ result
+            }}</h4>
 
-<div class="relative overflow-x-auto" v-if="showTable  && notifi == null">
-    <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 text-right">
-            <tr>
-                <th scope="col" class="px-6 py-3">
-                    عدد الرؤوس
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    حــقة
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    الحـــالــة
-                </th>
-                <th scope="col" class="px-6 py-3">
-                    بنت لبون
-                </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="bg-white text-center">
-                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
-                    {{total}}
-                </th>
-                <td class="px-6 py-4 font-bold text-[15px]">
-                    {{((total / 50) | 0)}}
-                </td>
-                <td class="px-6 py-4 text-red-700 font-bold">
-                    أو
-                </td>
-                <td class="px-6 py-4 font-bold text-[15px]">
-                    {{((total / 40) | 0)}}
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+        <div class="relative overflow-x-auto" v-if="showTable && notifi == null">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-100 text-right">
+                    <tr>
+                        <th scope="col" class="px-6 py-3">
+                            عدد الرؤوس
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            حــقة
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            الحـــالــة
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            بنت لبون
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white text-center">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                            {{ total }}
+                        </th>
+                        <td class="px-6 py-4 font-bold text-[15px]">
+                            {{ ((total / 50) | 0) }}
+                        </td>
+                        <td class="px-6 py-4 text-red-700 font-bold">
+                            أو
+                        </td>
+                        <td class="px-6 py-4 font-bold text-[15px]">
+                            {{ ((total / 40) | 0) }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
 </template>
@@ -101,7 +100,7 @@ function calcule() {
         }
     } else {
         showTable.value = true;
-        result.value  = null; 
+        result.value = null;
     }
 };
 </script>
