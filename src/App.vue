@@ -3,6 +3,7 @@
     <img src="./assets/logo.png" alt="logo" class="w-[170px]  py-[20px]">
     <h1 class="font-bold text-[32px] text-primary ">زكـــــــــــــــــــاة الإبل</h1>
     <p class="font-bold py-4 text-[#34495e]">تطبيق ويب مبسط يقدم مستحقات الزكاة من الإبل، مقدم مجانا للمنمين.</p>
+    <p class="font-bold py-4 text-[#34495e]">تطبيق ويب مبسط يقدم مستحقات الزكاة من الإبل، مقدم مجانا للمنمين.</p>
     <Content class="py-4 pt-4"/>
     <Footer class="mt-4"/>
   </div>
